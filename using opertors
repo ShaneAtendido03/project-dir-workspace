@@ -1,0 +1,50 @@
+//Atendido, Shane Ashley P. DIT 1-2
+#include <stdio.h>
+
+int main () {
+    int x = 10, y = 3, z = 18;
+    int addition, substraction, multiplication, division;
+    int result;
+
+    printf("Value: \n");
+    printf("x: %d\n", x);
+    printf("y: %d\n", y);
+    printf("z: %d\n", z);
+
+    addition = x + y;
+    substraction = x - y;
+    multiplication = x * y;
+    division = x / y;
+    
+    printf("ARITHMETIC OPERATION: \n");
+    printf("Addition: %d\n", addition);
+    printf("Substraction: %d\n", substraction);
+    printf("Multiplication: %d\n", multiplication);
+    printf("Division: %d\n", division);
+
+    printf("LOGICAL OPERATIONS (1 means true, 0 means false): \n");
+    result = (x > y) && (y < z);
+    printf("AND (x > y && y < z): %d\n", result);
+    result = (x < y) || (y > z);
+    printf("OR ( x < y || y < z): %d\n", result);
+    result = !(x > y && y < z);
+    printf("NOT !(x > y && y < z): %d\n", result);
+    
+    printf("ASSIGNMENT OPERATIONS: \n");
+    x += 5;
+    y -= 2;
+    z *= 3;
+    x /= 2;
+    y %= 7;
+
+    printf("Updated values of x (x += 5): %d\n", x);
+    printf("Updated values of y (y -= 2): %d\n", y);
+    printf("Updated values of z (z *= 3): %d\n", z);
+    printf("Updated values of x (x /= 2): %d\n", x);
+    printf("Updated values of y (y %= 7): %d\n", y);
+
+    return 0;
+
+    
+
+}
