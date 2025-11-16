@@ -12,5 +12,9 @@ int main () {
     printf("Letter: %c\n", letter);
     printf("Name: %s\n", name);
 
+    printf("adding one variable name");
+    printf("adding data type");
+
+
     return 0;
 }
