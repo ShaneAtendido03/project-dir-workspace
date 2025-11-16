@@ -1,0 +1,30 @@
+//Atendido, Shane Ashley P. DIT 1-2
+#include <stdio.h>
+
+int main () {
+    //while loop
+    printf("WHILE LOOP : Numbers 1 to 10 \n");
+    int i = 1;
+    while (1 <= 10) {
+        printf("%d ", i);
+        i++;
+    }
+    printf("\n\n");
+
+    //For loop
+    printf("FOR LOOP: Even numbers 2 to 20 \n");
+    for (int j = 2; j <= 20; j += 20) {
+        printf("%d ", j);
+    }
+    printf("\n\n");
+
+    //Do-while loop
+    printf("=== DO WHILE LOOP: Numbers 1 to 5 ===\n");
+    int k = 1;
+    do {
+        printf("%d ", k);
+        k++;
+    } while (k <= 5);
+
+    return 0;
+}
